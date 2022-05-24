@@ -1,0 +1,11 @@
+<?php
+echo"Upanshu";
+$arr=array(15,31,68,64,15);
+asort($arr);
+$x=count($arr);
+for($i=0;$i<$x;$i++)
+{
+    echo$arr[$i];
+    echo"<br>";
+}
+?>
