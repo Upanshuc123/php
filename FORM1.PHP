@@ -54,6 +54,4 @@ echo"Cookie value :".$_COOKIE["User"];
 // delete
 setcookie("User"," ",time()-(86400),"/");
 ?>
-</script>       
-  
-    
+</script>
